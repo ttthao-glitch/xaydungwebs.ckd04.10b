@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form Đăng ký sự kiện</title>
+    <style>
+        body {
+            font-family: "Times New Roman";
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        fieldset {
+            margin-bottom: 10px;
+        }
+
+        input {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Form Đăng ký sự kiện</h1>
+
+    <form>
+        <fieldset>
+            <legend>Thông tin người tham dự</legend>
+
+            Họ tên:
+            <input type="text" name="hoten">
+            <br>
+
+            Email:
+            <input type="email" name="email">
+            <br>
+
+            Ngày tham dự:
+            <input type="date" name="ngay">
+            <br>
+
+            Giờ:
+            <input type="time" name="gio">
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Lựa chọn</legend>
+
+            Vé tham dự:
+            <input type="radio" name="ve" value="phothong">
+            Phổ thông
+
+            <input type="radio" name="ve" value="vip">
+            VIP
+            <br><br>
+
+            Dịch vụ thêm:
+            <input type="checkbox" name="dichvu" value="antrua">
+            Ăn trưa
+
+            <input type="checkbox" name="dichvu" value="quatang">
+            Quà tặng
+        </fieldset>
+
+        <button type="submit">Đăng ký</button>
+    </form>
+
+</body>
+</html>

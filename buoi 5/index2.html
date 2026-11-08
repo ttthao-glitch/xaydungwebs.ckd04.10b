@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký thành viên</title>
+</head>
+<body>
+
+<h2 align="center">Đăng ký thành viên</h2>
+
+<form>
+
+    <fieldset>
+        <legend>Thông tin cơ bản</legend>
+
+        Họ tên:
+        <input type="text" name="hoten" size="20">
+        <br><br>
+
+        Ngày sinh:
+        <input type="date" name="ngaysinh">
+        <br><br>
+
+        Quốc tịch:
+        <select name="quoctich">
+            <option>Việt Nam</option>
+            <option>Hàn Quốc</option>
+            <option>Nhật Bản</option>
+            <option>Mỹ</option>
+        </select>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Bạn muốn nhận thông tin qua</legend>
+
+        <input type="checkbox" name="thongtin" value="Email">
+        Email
+        <br>
+
+        <input type="checkbox" name="thongtin" value="SMS">
+        Tin nhắn SMS
+        <br>
+
+        <input type="checkbox" name="thongtin" value="Buu dien">
+        Bưu điện
+
+    </fieldset>
+
+    <input type="submit" value="Đăng ký">
+
+</form>
+
+</body>
+</html>

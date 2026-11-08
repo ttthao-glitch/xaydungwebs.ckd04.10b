@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký tài khoản</title>
+    <style>
+        body {
+            font-family: "Times New Roman";
+            font-size: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        fieldset {
+            margin-bottom: 20px;
+        }
+
+        input {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Đăng ký tài khoản</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Tài khoản</legend>
+
+            Tên đăng nhập:
+            <input type="text" name="tendangnhap">
+            <br>
+
+            Mật khẩu:
+            <input type="password" name="matkhau">
+            <br>
+
+            Xác nhận mật khẩu:
+            <input type="password" name="xacnhan">
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Thông tin cá nhân</legend>
+
+            Họ và tên:
+            <input type="text" name="hoten">
+            <br>
+
+            Ngày sinh:
+            <input type="date" name="ngaysinh">
+            <br>
+
+            Giới tính:
+            <input type="radio" name="gioitinh" value="nam">
+            Nam
+
+            <input type="radio" name="gioitinh" value="nu">
+            Nữ
+
+            <input type="radio" name="gioitinh" value="khac">
+            Khác
+            <br><br>
+
+            Quốc gia:
+            <select name="quocgia">
+                <option>Việt Nam</option>
+                <option>Thái Lan</option>
+                <option>Nhật Bản</option>
+                <option>Hàn Quốc</option>
+                <option>Mỹ</option>
+            </select>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Tùy chọn</legend>
+
+            <input type="checkbox" name="dieukhoan">
+            Tôi đồng ý với điều khoản sử dụng
+
+        </fieldset>
+
+        <button type="submit">Đăng ký</button>
+
+    </form>
+
+</body>
+</html>
