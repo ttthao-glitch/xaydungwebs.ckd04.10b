@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký thành viên</title>
+
+    <style>
+        body {
+            font-family: "Times New Roman";
+        }
+
+        .khung {
+            width: 500px;
+            border: 2px solid gray;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        fieldset {
+            margin: 8px;
+        }
+
+        .dong {
+            margin: 8px 0;
+        }
+
+        label {
+            display: inline-block;
+            width: 120px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="email"] {
+            width: 200px;
+        }
+
+        textarea {
+            width: 230px;
+            height: 50px;
+            vertical-align: middle;
+        }
+
+        .nut {
+            text-align: center;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<form action="#" method="post" name="dangky">
+
+<div class="khung">
+
+    <h2>ĐĂNG KÝ THÀNH VIÊN</h2>
+
+    <hr>
+
+    <fieldset>
+        <legend><b>Thông tin cá nhân</b></legend>
+
+        <div class="dong">
+            <label>Họ và tên:</label>
+            <input type="text" name="hoten">
+        </div>
+
+        <div class="dong">
+            <label>Ngày sinh:</label>
+
+            <select name="ngay">
+                <option value="">01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+
+            Tháng
+
+            <select name="thang">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+            </select>
+
+            Năm
+            <input type="text" name="nam" size="5">
+        </div>
+
+        <div class="dong">
+            <label>Giới tính:</label>
+
+            <input type="radio" name="gioitinh" value="Nam" checked>
+            Nam
+
+            <input type="radio" name="gioitinh" value="Nu">
+            Nữ
+        </div>
+
+        <div class="dong">
+            <label>Địa chỉ:</label>
+            <textarea name="diachi"></textarea>
+        </div>
+
+        <div class="dong">
+            <label>Điện thoại:</label>
+            <input type="text" name="dienthoai">
+        </div>
+
+        <div class="dong">
+            <label>Email:</label>
+            <input type="email" name="email" required>
+        </div>
+
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Thông tin đăng nhập</b></legend>
+
+        <div class="dong">
+            <label>Tên đăng nhập:</label>
+            <input type="text" name="tendangnhap" required>
+        </div>
+
+        <div class="dong">
+            <label>Mật khẩu:</label>
+            <input type="password" name="matkhau" required>
+        </div>
+
+        <div class="dong">
+            <label>Nhập lại mật khẩu:</label>
+            <input type="password" name="nhaplaimatkhau" required>
+        </div>
+
+    </fieldset>
+
+    <div class="nut">
+        <button type="submit">Đăng ký</button>
+
+        <button type="reset">Hủy</button>
+    </div>
+
+</div>
+
+</form>
+
+</body>
+</html>
